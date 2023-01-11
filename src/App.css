@@ -1,0 +1,52 @@
+body{
+  background-color: #e5e5f7;
+opacity: 0.8;
+background-image:  linear-gradient(30deg, #f74545 12%, transparent 12.5%, transparent 87%, #f74545 87.5%, #f74545), linear-gradient(150deg, #f74545 12%, transparent 12.5%, transparent 87%, #f74545 87.5%, #f74545), linear-gradient(30deg, #f74545 12%, transparent 12.5%, transparent 87%, #f74545 87.5%, #f74545), linear-gradient(150deg, #f74545 12%, transparent 12.5%, transparent 87%, #f74545 87.5%, #f74545), linear-gradient(60deg, #f7454577 25%, transparent 25.5%, transparent 75%, #f7454577 75%, #f7454577), linear-gradient(60deg, #f7454577 25%, transparent 25.5%, transparent 75%, #f7454577 75%, #f7454577);
+background-size: 80px 140px;
+background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+
+text-align: center;
+}
+.button {
+  content: "";
+  background: linear-gradient(
+    60deg,
+    #f79533,
+    #f37055,
+    #ef4e7b,
+    #a166ab,
+    #5073b8,
+    #1098ad,
+    #07b39b,
+    #6fba82
+  );
+  -webkit-animation: animatedgradient 3s ease infinite alternate;
+  animation: animatedgradient 3s ease infinite alternate;
+  background-size: 300% 300%;
+  border: 0;
+  width: 20vw;
+  height: 20vh;
+  margin-top: 10rem;
+  margin-left: 10rem;
+  border-radius: 8px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+@keyframes animatedgradient {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+.font{
+  font-size: 3rem;
+}
